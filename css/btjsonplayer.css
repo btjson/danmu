@@ -467,10 +467,20 @@ to{background-position:0 -600px}
     position: absolute;
     font-size: 14px;
     background-color: hsla(0, 0%, 0%, 0.42);
-    padding: 2px 4px;
+    padding: 4px 8px;
     margin: 4px;
     border-radius: 3px;
     right: 0;
+}
+#player_pause .adimg{
+    color: #f4f4f4;
+    position: absolute;
+    font-size: 14px;
+    background-color: hsla(0, 0%, 0%, 0.42);
+    padding: 2px 4px;
+    margin: 4px;
+/*    border-radius: 3px;*/
+    bottom: 0px;
 }
 #player_pause{
     position: absolute;
