@@ -141,3 +141,8 @@ Diy by 黑白 btjson
 8.修复IOS微信 不能播放的问题
 
 9.加入P2P视频加速功能
+
+
+技术支持
+
+     乐乐    黑白  Tim  btjson
