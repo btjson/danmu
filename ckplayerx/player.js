@@ -22,7 +22,7 @@
 			}
 		}
 	};
-	var cookieTime = cookie.get('time_' + huiid);
+	var cookieTime = cookie.get('time_' + vid);
 	//console.log(cookieTime);
 	if(!cookieTime || cookieTime == undefined) {
 		cookieTime = 0;
@@ -30,22 +30,22 @@
 	var isiPad = navigator.userAgent.match(/iPhone|Linux|Android|iPad|iPod|ios|iOS|Windows Phone|Phone|WebOS/i) != null; 	
 	if (isiPad){
     var videoObject = {
-		container: '.huiv',
+		container: '.video',
 		variable: 'player',
 		loaded:'loadHandler',
-		poster:'loadingwap.gif',
-		video: huiid
+		poster:'ckx/loadingwap.gif',
+		video: vid
 	};
 	}else{
 	var videoObject = {
-		container: '.huiv',
+		container: '.video',
 		variable: 'player',
 		loaded:'loadHandler',
 		autoplay:true,
-		video: huiid
- 
+		video: vid
 	};
 	}
+
 	if(cookieTime > 0) { 
 		videoObject['seek'] = cookieTime;
 	}
@@ -56,7 +56,7 @@
 	}
  
 	function timeHandler(t) {
-		cookie.set('time_' + huiid, t); 
+		cookie.set('time_' + vid, t); 
 	}
 
 	if ((navigator.userAgent.indexOf('MSIE') >= 0)

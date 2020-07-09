@@ -37,7 +37,7 @@
 		</m3u8Definition>
 		<error>
 			<cannotFindUrl>视频地址不存在</cannotFindUrl>
-			<streamNotFound>加载失败，请尝试刷新页面。</streamNotFound>
+			<streamNotFound>加载失败</streamNotFound>
 			<formatError>视频格式错误</formatError>
 		</error>
 		<definition>自动</definition>
