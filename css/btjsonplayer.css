@@ -1,4 +1,4 @@
-@font-face {font-family: 'lelefont';src: url('../css/btjson.ttf');}
+@font-face {font-family: 'lelefont';src: url('../css/lelege.ttf');}
 button[data-balloon]{overflow:visible}
 [data-balloon]{position:relative;cursor:pointer}
 [data-balloon]:after{font-family:sans-serif!important;font-weight:400!important;font-style:normal!important;text-shadow:none!important;font-size:12px!important;background:hsla(0,0%,7%,.9);border-radius:4px;color:#fff;content:attr(data-balloon);padding:.5em 1em;white-space:nowrap}
@@ -302,7 +302,7 @@ to{opacity:.25;-webkit-transform:scale(.85);transform:scale(.85)}}.leleplayer-co
 @-webkit-keyframes danmaku-center{0%{visibility:visible}
 to{visibility:visible}}@keyframes danmaku-center{0%{visibility:visible}
 to{visibility:visible}}
-.leleplayer-logo{pointer-events:none;position:absolute;z-index:2;right: 5%;top: 5%;width: 100px;height: 55px;opacity: .5;}
+.leleplayer-logo{pointer-events:none;position:absolute;z-index:2;right: 5%;top: 5%;height: 55px;opacity: .5;}
 .leleplayer-logo img{max-width:100%;max-height:100%;background:none;}
 .leleplayer-menu{position:absolute;width:170px;border-radius:2px;background:rgba(28,28,28,.85);padding:5px 0;overflow:hidden;z-index:3;display:none}
 .leleplayer-menu.leleplayer-menu-show{display:block}
@@ -310,7 +310,7 @@ to{visibility:visible}}
 .leleplayer-menu .leleplayer-menu-item:hover{background-color:hsla(195, 100%, 42%, 0.46);}
 .leleplayer-menu .leleplayer-menu-item a{padding:0 10px;line-height:30px;color:#eee;font-size:13px;display:inline-block;vertical-align:middle;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
 .leleplayer-menu .leleplayer-menu-item a:hover{text-decoration:none}
-.leleplayer-notice{opacity:0;position:absolute;bottom: 55px;left:20px;font-size:14px;border-radius: 2px;background: rgba(21,21,21,.9);padding: 8px 20px;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;overflow:hidden;color:#fff;pointer-events:none;z-index:9999;}/*开始和结束的文字提示*/
+.leleplayer-notice{opacity:0;position:absolute;bottom: 55px;left:20px;font-size:14px;border-radius: 2px;background: rgba(21,21,21,.9);padding: 8px 20px;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;overflow:hidden;color:#fff;pointer-events:none;}
 .leleplayer-subtitle{position:absolute;bottom:40px;width:90%;left:5%;text-align:center;color:#fff;text-shadow:.5px .5px .5px rgba(0,0,0,.5);font-size:20px}
 .leleplayer-subtitle.leleplayer-subtitle-hide{display:none}
 .leleplayer-mask{position:absolute;top:0;bottom:0;left:0;right:0;z-index:1;display:none}
@@ -454,7 +454,7 @@ to{background-position:0 -600px}
 .leleplayer-full-icon span{background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iODhweCIgaGVpZ2h0PSI4MHB4IiB2aWV3Qm94PSIwIDAgODggODAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjUgKDY3NDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5iZnFfem1xcDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJiZnFfem1xcCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOC4wMDAwMDAsIDQuMDAwMDAwKSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZS01IiB4PSIwIiB5PSIwIiB3aWR0aD0iNzIiIGhlaWdodD0iNzIiPjwvcmVjdD4KICAgICAgICAgICAgPHBhdGggZD0iTTUyLDggTDY0LDggQzY2LjIwOTEzOSw4IDY4LDkuNzkwODYxIDY4LDEyIEw2OCwyNCBNNjgsNDggTDY4LDYwIEM2OCw2Mi4yMDkxMzkgNjYuMjA5MTM5LDY0IDY0LDY0IEw1Miw2NCBNMjAsNjQgTDgsNjQgQzUuNzkwODYxLDY0IDQsNjIuMjA5MTM5IDQsNjAgTDQsNDggTTQsMjQgTDQsMTIgQzQsOS43OTA4NjEgNS43OTA4NjEsOCA4LDggTDIwLDgiIGlkPSLlvaLnirYiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTgsMTIgTDI0LjE5NjQ0MTQsMjUuODgyNjY0MSBMMjguMDM4ODgxMiwyOS4xNzYxODM5IE00NC4wODQyNzk2LDQyLjkyOTM4MjUgTDQ4LjE0NzEyOTYsNDYuNDExODI1MyBMNjQsNjAiIGlkPSLlvaLnirYiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTY0LDEyIEw0NC4wMTU0MTQzLDI5LjEyOTY0NDkgTTI4LjA1MjQ1OTIsNDIuODEyMTc3OCBMMjQuMjIzNDM0LDQ2LjA5NDE5OTUgTDgsNjAiIGlkPSLlvaLnirYiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==) center no-repeat;}
 .leleplayer-fulloff-icon span{background: url(../img/fulloff.webp) center no-repeat;}
 #loading-box {background: #<?php echo($_GET['color']);?>!important;}
-#vod-title{overflow: unset;width: 285px;/*white-space: normal;*/color: #fb7299;overflow:hidden;}
+#vod-title{overflow: unset;width: 285px;white-space: normal;color: #fb7299;overflow:hidden;}
 #vod-title e{padding: 2px;}
 .layui-layer-dialog{text-align: center;font-size: 16px;padding-bottom: 10px;}
 .layui-layer-btn.layui-layer-btn-{padding: 15px 5px !important;text-align: center;}
@@ -549,4 +549,5 @@ to{background-position:0 -600px}
 }
 
 .fixed{height:0%;position:absolute;z-index: 1;background-color:#000;left:0px; top:0px ;width:100%;}
+.lelezdycss{position:absolute;z-index: 2;width:100%;}
 @media screen and (max-width: 650px) {.fixed {height:0%;}}
