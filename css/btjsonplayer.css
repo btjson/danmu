@@ -1,4 +1,4 @@
-@font-face {font-family: 'lelefont';src: url('../css/lelege.ttf');}
+@font-face {font-family: 'lelefont';src: url('../css/btjson.ttf');}
 button[data-balloon]{overflow:visible}
 [data-balloon]{position:relative;cursor:pointer}
 [data-balloon]:after{font-family:sans-serif!important;font-weight:400!important;font-style:normal!important;text-shadow:none!important;font-size:12px!important;background:hsla(0,0%,7%,.9);border-radius:4px;color:#fff;content:attr(data-balloon);padding:.5em 1em;white-space:nowrap}
