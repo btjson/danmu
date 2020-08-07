@@ -551,3 +551,4 @@ to{background-position:0 -600px}
 .fixed{height:0%;position:absolute;z-index: 1;background-color:#000;left:0px; top:0px ;width:100%;}
 .lelezdycss{position:absolute;z-index: 2;width:100%;}
 @media screen and (max-width: 650px) {.fixed {height:0%;}}
+@media screen and (max-width: 650px) {.leleplayer-logo img{max-width:100%;max-height:70%;background:none;}}
